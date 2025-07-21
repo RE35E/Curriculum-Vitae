@@ -1,6 +1,6 @@
 subject: About Me
 listing-order: 1
-icon: "/resources/svgs/regular/user.svg"
+# icon: "/resources/svgs/regular/user.svg"
 contents:
   - title: Welcome!
     description:
