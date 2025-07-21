@@ -2,21 +2,19 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
+  - title: Telesure Investment Holdings (TIH)
     role: Project Manager
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
+      - Observed front-end, back-end, and business analysis teams to gain insight into enterprise software development and system design.
+      - Learned how Agile and Waterfall methodologies are applied in real-world projects.
+      - Developed a deeper understanding of user feedback, documentation, and collaboration across technical teams within a corporate environment.
+    date: 24 Jun 2024 - 29 Jun 2024
+
+  - title: Tom Human Associates Architect and Urban Designer (THA)
+    role: Architectural Draughtsman
     description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Prepared technical drawings and documentation for new and existing buildings for council submissions
+      - Collaborated with clients, contractors, and municipal councils to ensure compliance and successful project outcomes
+      - Created 2D/3D visuals, presentations, and renderings using AutoCAD, Revit, SketchUp, Illustrator, Photoshop, InDesign, and Twinmotion.
+      - Gained practical experience in design detailing, architectural documentation workflows, and producing high-quality visualizations.
+    date: Jun 2021 - Jun 2023
