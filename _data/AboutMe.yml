@@ -1,0 +1,7 @@
+subject: About Me
+listing-order: 1
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: Welcome!
+    description:
+      - "Final-year BSc Information Technology student at North-West University with a multidisciplinary foundation in software development and design. Currently developing a well-rounded skill set to pursue a career in software development"
