@@ -2,17 +2,16 @@ subject: Education
 listing-order: 1
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: Farvard University, PhD in Computer Science
+  - title: North West University
     description:
-      - Design of a method to build a probabilistic generative model
-      - Development of model calibration algorithm for cross-domain few-shot learning
-    date: Mar. 2019 - Aug. 2023
-  - title: Stanfort University, MA in Computer Science
+      - "Relevant Coursework: Object-Oriented Programming, User Interface Programming, Advanced UI Programming, Data Structures & Algorithms, Databases, Operating Systems, Systems Analysis & Design I & II, Information Security."
+      - Member of Golden Key International Honour Society (Top 15% achiever).
+
+    date: Jan 2023 - Present
+  - title: Academic Institute of Excellence
     description:
-      - Development of deep learning algorithms for automatically tracking the facial expressions
-      - Optimizing parameter efficient fine tuning for fairness in medical image analysis
-    grade: "**GPA**: `4.1/4.3`"
-    date: Mar. 2014 - Feb. 2016
-  - title: Kambridge University, BA in Electronic Engineering
-    grade: "**GPA**: `3.9/4.3`"
-    date: Mar. 2010 - Feb. 2014
+      - "Relevant Coursework: Architectural Design, Construction Technology, Representation and Draughting, History and Theory of Architecture, Computer Applications, and Applied Building Science."
+
+  - title: Hoërskool Oosterlig
+    grade: National Senior Certificate
+    date: 2014 - 2018
