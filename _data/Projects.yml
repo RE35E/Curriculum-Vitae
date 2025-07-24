@@ -2,11 +2,9 @@ subject: Projects
 listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
+  - title: "Dice Roller App (Flutter)"
     description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
+      - A simple and interactive dice-rolling app built with Flutter. This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design. Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
     image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
 
   - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
