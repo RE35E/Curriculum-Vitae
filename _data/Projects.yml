@@ -4,8 +4,10 @@ icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Dice Roller App (Flutter)"
     description: 
-      - A simple and interactive dice-rolling app built with Flutter. This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design. Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
+      - A simple and interactive dice-rolling app built with Flutter.
+      - This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design.
+      - Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
+    image: "![](/assets/flutter_project_img/Dice_App_Image1.jpg)"
 
   - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
     description: 
