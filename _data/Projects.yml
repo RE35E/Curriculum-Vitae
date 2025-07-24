@@ -8,16 +8,17 @@ contents:
       - This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design.
       - Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
     image: "![](https://i.postimg.cc/X7C4ZFFb/Dice-App-Image1.jpg)" 
+    image: "![](https://i.postimg.cc/KcDDbLwc/Dice-App-Image1.jpg)"
+    image: "![](https://i.postimg.cc/KcDDbLwc/Dice-App-Image1.jpg)"
 
   - title: "AW5-cli ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))"
     description: 
       - Universal Command Line Interface for Amazone Web Services
       - Developed a scheme to facilitate users’ authentication without having to remember their credentials
       - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.postimg.cc/KcDDbLwc/Dice-App-Image1.jpg)"
+    
 
   - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
     description: 
       - Machine learning library for applications such as computer vision and natural language processing
       - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
