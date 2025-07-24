@@ -7,7 +7,8 @@ contents:
       - A simple and interactive dice-rolling app built with Flutter.
       - This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design.
       - Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
-    image: /assets/flutter_project_img/Dice_App_Image1.jpg
+    image: "![Dice App Screenshot](/assets/flutter_project_img/Dice_App_Image1.jpg)"
+
 
   - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
     description: 
