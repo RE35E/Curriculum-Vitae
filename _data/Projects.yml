@@ -2,14 +2,11 @@ subject: Projects
 listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "Dice Roller App (Flutter) ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))"
+  - title: "Flutter Dice Roller App ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))"
     description: 
       - A simple and interactive dice-rolling app built with Flutter.
       - This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design.
       - Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
-    image: "![](https://i.postimg.cc/X7C4ZFFb/Dice-App-Image1.jpg)" 
-    image: "![](https://i.postimg.cc/KcDDbLwc/Dice-App-Image1.jpg)"
-    image: "![](https://i.postimg.cc/KcDDbLwc/Dice-App-Image1.jpg)"
 
   - title: "AW5-cli ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))"
     description: 
