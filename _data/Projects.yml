@@ -2,19 +2,14 @@ subject: Projects
 listing-order: 4
 icon: "/assets/img/clipboard-list.svg"
 contents:
-  - title: "Dice Roller App (Flutter)"
+  - title: "Dice Roller App (Flutter) ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))""
     description: 
       - A simple and interactive dice-rolling app built with Flutter.
       - This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design.
       - Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
-      - image: "![](https://i.postimg.cc/X7C4ZFFb/Dice-App-Image1.jpg)"
-      - image: "![](https://i.postimg.cc/T2STYQK0/Dice-App-Image2.jpg)"
-      - image: "![](https://i.postimg.cc/QCRD4N2w/Dice-App-Image3.jpg)"
+    image: "![](https://i.postimg.cc/X7C4ZFFb/Dice-App-Image1.jpg)" 
 
-
-
-
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
+  - title: "AW5-cli ([https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images](https://github.com/RE35E/Roll-Dice-App/tree/main/Demo_Images))"
     description: 
       - Universal Command Line Interface for Amazone Web Services
       - Developed a scheme to facilitate users’ authentication without having to remember their credentials
