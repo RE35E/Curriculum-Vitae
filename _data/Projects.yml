@@ -17,5 +17,5 @@ contents:
 
   - title: "Brighton Medical System ([https://github.com/RE35E/Brighton-Medical-System](https://github.com/RE35E/Brighton-Medical-System))" 
     description: 
-      - This is a dual-interface medical appointment management system developed for a make-believe medical company as part of the CMPG212 exam project.
+      - This is a dual-interface medical appointment management system developed for a make-believe medical company as part of the CMPG212 project.
       - The system includes a WinForms desktop application for administrative staff and a web application for patients to book and manage appointments.
