@@ -135,17 +135,17 @@
                   {% endfor %}
 
                   {% if member.images %}
-                  <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
-                    {% for image in member.images %}
-                      <a href="{{ image | prepend: site.baseurl }}" target="_blank">
-                        <img src="{{ image | prepend: site.baseurl }}" alt="Project Image"
-                          style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer;"
-                          onmouseover="this.style.transform='scale(1.05)';"
-                          onmouseout="this.style.transform='scale(1)';">
-                      </a>
-                    {% endfor %}
-                  </div>
-                {% endif %}
+                    <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+                      {% for image in member.images %}
+                        <img src="{{ image | prepend: site.baseurl }}"
+                            alt="Project Image"
+                            onclick="showPopup(this.src)"
+                            style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                      {% endfor %}
+                    </div>
+                  {% endif %}
 
 
               </li>
@@ -160,6 +160,23 @@
       Copyright © 2025 | <a>Reese Van Der Linde</a>
     </span>
   </div>
+  <!-- Simple Image Popup -->
+<div id="popupOverlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:1000;" onclick="hidePopup()">
+  <img id="popupImage" src="" alt="Enlarged Image" style="max-width:90%; max-height:90%; border-radius:10px;">
+</div>
+
+<script>
+  function showPopup(src) {
+    const overlay = document.getElementById('popupOverlay');
+    const img = document.getElementById('popupImage');
+    img.src = src;
+    overlay.style.display = 'flex';
+  }
+
+  function hidePopup() {
+    document.getElementById('popupOverlay').style.display = 'none';
+  }
+</script>
 </body>
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
 </html>
