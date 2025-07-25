@@ -133,7 +133,7 @@
                   {% endfor %}
 
                   {% if member.images %}
-                    <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 10px;">
+                    <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
                       {% for image in member.images %}
                         <a href="{{ image | prepend: site.baseurl }}">
                           <img src="{{ image | prepend: site.baseurl }}" alt="Project Image"
