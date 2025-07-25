@@ -5,7 +5,7 @@ contents:
   - title: "Flutter Dice Roller App"
     description: 
       - A simple and interactive dice-rolling app built with Flutter. This app simulates the roll of a standard six-sided die with smooth UI animations and a responsive design. Ideal for beginners learning Flutter basics, including widgets, state management, and random number generation.
-      - "Github Link: ([https://github.com/ReeseVDL/Roll_Dice_App](https://github.com/ReeseVDL/Roll_Dice_App))"
+      - "Github Link: [https://github.com/ReeseVDL/Roll_Dice_App](https://github.com/ReeseVDL/Roll_Dice_App)"
     images: 
       - /assets/flutter_project_img/Flutter_img1.jpg
       - /assets/flutter_project_img/Flutter_img2.jpg
@@ -15,7 +15,7 @@ contents:
   - title: "DreamFlix-Cinemas-POS"
     description: 
       - Collaboratively contributed to the development of a point-of-sale (POS) system tailored for cinema operations. The system supports key administrative functions such as managing movie schedules, staff records, timeslots, and seat bookings. It also features integrated tools for monitoring sales, income, and staff performance. My role involved co-designing and implementing core functionalities using C# as part of a group assignment.
-      - "Github link: ([https://github.com/ReeseVDL/DreamFlix_Cinemas_POS](https://github.com/ReeseVDL/DreamFlix_Cinemas_POS))"
+      - "Github link: [https://github.com/ReeseVDL/DreamFlix_Cinemas_POS](https://github.com/ReeseVDL/DreamFlix_Cinemas_POS)"
     images: 
       - /assets/dreamflic_project_img/DreamFlix_img1.png
       - /assets/dreamflic_project_img/DreamFlix_img2.png
@@ -34,7 +34,7 @@ contents:
   - title: "Brighton Medical System" 
     description: 
       - This is a dual-interface medical appointment management system developed for a fictional medical company as part of the CMPG212 project. The system includes a WinForms desktop application for administrative staff and a web application for patients to book and manage appointments.
-
+      - "Github link: [https://github.com/ReeseVDL/Brighton_Medical_System](https://github.com/ReeseVDL/Brighton_Medical_System)"
     images: 
       - /assets/brighton_medical_img/LandingPage1.jpg
       - /assets/brighton_medical_img/LandingPage2.jpg
@@ -49,5 +49,3 @@ contents:
       - /assets/brighton_medical_img/AppointmentPage2.jpg
       - /assets/brighton_medical_img/AccountPage1.jpg
       - /assets/brighton_medical_img/AccountPage2.jpg
-    description:
-      - "Github link: [https://github.com/ReeseVDL/Brighton_Medical_System](https://github.com/ReeseVDL/Brighton_Medical_System)"
