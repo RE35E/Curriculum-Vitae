@@ -131,6 +131,15 @@
                       {% endif %}
                     {% endif %}
                   {% endfor %}
+                  
+                  {% if member.images %}
+                  <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+                    {% for image in member.images %}
+                      <img src="{{ image | prepend: site.baseurl }}" alt="Project Image" style="width: 30%; max-width: 300px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+                    {% endfor %}
+                  </div>
+                {% endif %}
+
               </li>
               {% endfor %}
           </ul>
