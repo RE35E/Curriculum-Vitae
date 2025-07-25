@@ -132,18 +132,21 @@
                     {% endif %}
                   {% endfor %}
 
-                  {% if member.images %}
-                    <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
-                      {% for image in member.images %}
-                        <a href="{{ image | prepend: site.baseurl }}">
-                          <img src="{{ image | prepend: site.baseurl }}" alt="Project Image"
-                            style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.2s;"
-                            onmouseover="this.style.transform='scale(1.05)';"
-                            onmouseout="this.style.transform='scale(1)';">
-                        </a>
-                      {% endfor %}
-                    </div>
-                  {% endif %}
+                  {% for item in member %}
+                    {% if item[0] != "title" and item[0] != "date" and item[0] != "images" %}
+                      {% if item[1].first %}
+                        <ul>
+                          {% for subitem in item[1] %}
+                          <li class="subitem">
+                            {{ subitem | markdownify }}
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      {% else %}
+                        {{ item[1] | markdownify }}
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
 
               </li>
               {% endfor %}
