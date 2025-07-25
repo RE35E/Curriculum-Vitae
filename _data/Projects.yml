@@ -18,7 +18,20 @@ contents:
       - Collaboratively contributed to the development of a point-of-sale (POS) system tailored for cinema operations.
       - The system supports key administrative functions such as managing movie schedules, staff records, timeslots, and seat bookings.
       - It also features integrated tools for monitoring sales, income, and staff performance. My role involved co-designing and implementing core functionalities using C# as part of a group assignment.
-    
+    images: 
+      - /assets/dreamflic_project_img/DreamFlix_img1.png
+      - /assets/dreamflic_project_img/DreamFlix_img2.png
+      - /assets/dreamflic_project_img/DreamFlix_img3.png
+      - /assets/dreamflic_project_img/DreamFlix_img4.png
+      - /assets/dreamflic_project_img/DreamFlix_img5.png
+      - /assets/dreamflic_project_img/DreamFlix_img6.png
+      - /assets/dreamflic_project_img/DreamFlix_img7.png
+      - /assets/dreamflic_project_img/DreamFlix_img8.png
+      - /assets/dreamflic_project_img/DreamFlix_img9.png
+      - /assets/dreamflic_project_img/DreamFlix_img10.png
+      - /assets/dreamflic_project_img/DreamFlix_img11.png
+      - /assets/dreamflic_project_img/DreamFlix_img12.png
+      - /assets/dreamflic_project_img/DreamFlix_img14.png
 
   - title: "Brighton Medical System ([https://github.com/RE35E/Brighton_Medical_System](https://github.com/RE35E/Brighton_Medical_System))" 
     description: 
