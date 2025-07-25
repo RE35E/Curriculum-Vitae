@@ -116,23 +116,6 @@
                       </span>
                     {% endif %}
                   </div>
-                  {% for item in member %}
-                    {% if item[0] != "title" and item[0] != "date" %}
-                      {% if item[1].first %}
-                        <ul>
-                          {% for subitem in item[1] %}
-                          <li class="subitem">
-                            {{ subitem | markdownify }}
-                          </li>
-                          {% endfor %}
-                        </ul>
-                      {% else %}
-                        {{ item[1] | markdownify }}
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-
-
 
 
                   {% for item in member %}
@@ -150,6 +133,18 @@
                       {% endif %}
                     {% endif %}
                   {% endfor %}
+
+                  {% if member.images %}
+                    <div class="image-gallery">
+                      {% for image in member.images %}
+                        <img src="{{ image | prepend: site.baseurl }}" alt="Project Image"
+                          onclick="openModal(this.src)"
+                          style="width: 180px; margin: 8px; display: inline-block; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transition: transform 0.2s; cursor: pointer;"
+                          onmouseover="this.style.transform='scale(1.05)'"
+                          onmouseout="this.style.transform='scale(1)'">
+                      {% endfor %}
+                    </div>
+                  {% endif %}
 
 
 
