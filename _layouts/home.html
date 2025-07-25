@@ -135,17 +135,17 @@
                   {% endfor %}
 
                   {% if member.images %}
-                    <div class="image-gallery">
-                      {% for image in member.images %}
-                        <img src="{{ image | prepend: site.baseurl }}"
-                            alt="Project Image"
-                            onclick="openModal(this.src)"
-                            style="width: 120px; margin: 8px; display: inline-block; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transition: transform 0.2s; cursor: pointer;"
-                            onmouseover="this.style.transform='scale(1.05)'"
-                            onmouseout="this.style.transform='scale(1)'">
-                      {% endfor %}
-                    </div>
-                  {% endif %}
+                  <div class="project-image-gallery" style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
+                    {% for image in member.images %}
+                      <a href="{{ image | prepend: site.baseurl }}" target="_blank">
+                        <img src="{{ image | prepend: site.baseurl }}" alt="Project Image"
+                          style="width: 100px; height: auto; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer;"
+                          onmouseover="this.style.transform='scale(1.05)';"
+                          onmouseout="this.style.transform='scale(1)';">
+                      </a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
 
 
               </li>
@@ -160,26 +160,6 @@
       Copyright © 2025 | <a>Reese Van Der Linde</a>
     </span>
   </div>
-
-    <!-- Modal Container -->
-  <div id="imgModal" class="modal" onclick="closeModal()" style="display:none;">
-    <span class="close" onclick="closeModal()" style="position:absolute;top:10px;right:20px;font-size:30px;color:white;cursor:pointer;">&times;</span>
-    <img id="modalImage" style="margin:auto;display:block;max-width:90%;max-height:90%;">
-  </div>
-
-  <script>
-    function openModal(src) {
-      const modal = document.getElementById('imgModal');
-      const modalImg = document.getElementById('modalImage');
-      modalImg.src = src;
-      modal.style.display = 'flex';
-    }
-
-    function closeModal() {
-      document.getElementById('imgModal').style.display = 'none';
-    }
-  </script>
-  
 </body>
 <script src="{{ '/assets/js/main.js' | prepend: site.baseurl }}"></script>
 </html>
